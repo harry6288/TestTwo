@@ -4,7 +4,7 @@ public class TTC {
 	{
 		String[] from1= new String[] {"Leslie"};
 		String[] to1 = new String[] {"Don Mills"};
-		return 0.0;
+		return 2.50;
 	}
 
 
