@@ -48,6 +48,7 @@ public class TestingTTC {
 	//R4 : More than 1 trip
 	@Test
 	public void testMoreThanOne() {
+		
 		String[] from1 = new String[] {"Finch Station","Leslie"};
 		String[] to1 = new String[] {"Sheppard","Don Mills"};
 		
