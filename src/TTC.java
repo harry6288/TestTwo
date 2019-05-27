@@ -10,14 +10,11 @@ public class TTC {
 		}
 		
 	
-	if (from[0].contains("Sheppard") && to[0].contains("Finch Station"))
+	if (from[0].contains("Sheppard") && to[0].contains("Finch Station")|| (from[0].contains("Don Mills") && to[0].contains("Finch Station")))
 	{
 	return 3.0;	
 	}
-	if (from[0].contains("Don Mills") && to[0].contains("Finch Station"))
-	{
-	return 3.0;	
-	}
+	
 	if (from[0].contains("Finch Station") && to[0].contains("Sheppard") && from[1].contains("Leslie") && to[1].contains("Don Mills"))
 	{
 		return 5.50;
