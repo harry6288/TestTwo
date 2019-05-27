@@ -58,7 +58,19 @@ public class TestingTTC {
 		assertEquals(5.50,result,0.0);
 		
 	}
-	
+	//R5 : Reaching Daily Maximum
+		@Test
+		public void testDailyMaximum() {
+			
+			String[] from1 = new String[] {"Finch Station","Shepppard","Finch Station"};
+			String[] to1 = new String[] {"Sheppard","Finch Station","Sheppard"};
+			
+			
+			TTC r = new TTC();
+			Double result = r.calculateTotal(from1, to1);
+			assertEquals(6.00,result,0.0);
+			
+		}
 	
 	
 	
