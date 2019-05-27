@@ -23,7 +23,7 @@ public class TestingTTC {
 		assertEquals(2.50,result,0.0);
 		
 	}
-	// R2 :
+	// R2 :A one way trip inside Zone 2
 	
 	@Test
 	public void testInsideZone2() {
@@ -34,4 +34,18 @@ public class TestingTTC {
 		assertEquals(3.0,result,0.0);
 		
 	}
+	
+	//R3 : A trip between Zones
+	@Test
+	public void testBetweenZone() {
+		String[] from1 = new String[] {"Don Mills"};
+		String[] to1 = new String[] {"Finch Station"};
+		TTC r = new TTC();
+		Double result = r.calculateTotal(from1, to1);
+		assertEquals(3.0,result,0.0);
+		
+	}
+	
+	
+	
 }
