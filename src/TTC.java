@@ -16,7 +16,7 @@ public class TTC {
 	}
 	else if (from[0].contains("Don Mills") && to[0].contains("Finch Station"))
 	{
-	return 2.0;	
+	return 3.0;	
 	}
 	return 0.0;
 
