@@ -62,7 +62,7 @@ public class TestingTTC {
 		@Test
 		public void testDailyMaximum() {
 			
-			String[] from1 = new String[] {"Finch Station","Shepppard","Finch Station"};
+			String[] from1 = new String[] {"Finch Station","Sheppard","Finch Station"};
 			String[] to1 = new String[] {"Sheppard","Finch Station","Sheppard"};
 			
 			

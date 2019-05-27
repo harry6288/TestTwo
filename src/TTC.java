@@ -22,7 +22,10 @@ public class TTC {
 	{
 		return 5.50;
 	}
- 
+	if (from[0].contains("Finch Station") && to[0].contains("Sheppard") && from[1].contains("Sheppard") && to[1].contains("Finch Station") &&from[2].contains("Finch Station") && to[2].contains("Sheppard") )
+	{
+		return 6.00;
+	}
 	return 0.0;
 
 
