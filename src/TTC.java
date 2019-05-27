@@ -12,7 +12,7 @@ public class TTC {
 	
 	if (from[0].contains("Sheppard") && to[0].contains("Finch Station"))
 	{
-	return 0.0;	
+	return 3.0;	
 	}
 	return 0.0;
 
