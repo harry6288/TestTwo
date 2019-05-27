@@ -45,6 +45,19 @@ public class TestingTTC {
 		assertEquals(3.0,result,0.0);
 		
 	}
+	//R4 : More than 1 trip
+	@Test
+	public void testMoreThanOne() {
+		String[] from1 = new String[] {"Finch Station","Leslie"};
+		String[] to1 = new String[] {"Sheppard","Don Mills"};
+		
+		
+		TTC r = new TTC();
+		Double result = r.calculateTotal(from1, to1);
+		assertEquals(5.50,result,0.0);
+		
+	}
+	
 	
 	
 	
