@@ -23,5 +23,15 @@ public class TestingTTC {
 		assertEquals(2.50,result,0.0);
 		
 	}
-
+	// R2 :
+	
+	@Test
+	public void testInsideZone2() {
+		String[] from1 = new String[] {"Sheppard"};
+		String[] to1 = new String[] {"Finch Station"};
+		TTC r = new TTC();
+		Double result = r.calculateTotal(from1, to1);
+		assertEquals(3.0,result,0.0);
+		
+	}
 }

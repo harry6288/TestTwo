@@ -4,8 +4,18 @@ public class TTC {
 	{
 		String[] from1= new String[] {"Leslie"};
 		String[] to1 = new String[] {"Don Mills"};
+		if (from[0].contains("Leslie") && to[0].contains("Don Mills"))
+		{
 		return 2.50;
+		}
+		
+	
+	if (from[0].contains("Sheppard") && to[0].contains("Finch Station"))
+	{
+	return 0.0;	
 	}
+	return 0.0;
 
 
+}
 }
